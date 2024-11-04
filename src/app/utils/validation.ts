@@ -1,6 +1,6 @@
 import * as Yup from 'yup';
 
-import { FormValues } from './types/formTypes';
+import { FormValues } from '../types/formTypes';
 
 const emailRegex = /^[\w.%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/;
 

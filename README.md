@@ -21,3 +21,7 @@ Run the development server:
 ```bash
 npm run dev
 ```
+Use:
+```
+http://localhost:3000/
+```
