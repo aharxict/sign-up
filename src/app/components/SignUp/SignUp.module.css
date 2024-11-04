@@ -1,0 +1,77 @@
+.container {
+  max-width: 375px;
+  margin: auto;
+  padding: 20px 30px 40px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.title {
+  font-size: 28px;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.formFieldsWrapper {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.formFieldRootElement {
+  border-radius: 10px;
+}
+
+.formFieldRootElement fieldset {
+  border-radius: 10px;
+}
+
+.formFieldRootElement input {
+  font-size: 16px;
+  line-height: 19px;
+  padding: 10px 10px 10px 20px;
+  border-radius: 10px;
+}
+
+.formFieldRootElement .formFieldIconElement {
+  margin: 0;
+  padding-right: 6px;
+}
+
+.passwordHints {
+  margin-bottom: 40px;
+}
+
+.passwordHints p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  padding-left: 20px;
+  margin-bottom: 4px;
+}
+
+.formSubmitButtonWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.formSubmitButtonWrapper .formSubmitButton {
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 30px;
+  padding: 15px 32px;
+  max-width: 240px;
+  text-transform: none;
+  background: linear-gradient(110.46deg, #70c3ff 12.27%, #4b65ff 93.92%);
+}
+
+.errorMessage {
+  font-size: 13px;
+  color: #FF8080;
+  position: absolute;
+  left: 20px;
+}
